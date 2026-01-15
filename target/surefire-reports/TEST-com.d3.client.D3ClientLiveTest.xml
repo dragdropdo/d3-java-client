@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="com.d3.client.D3ClientLiveTest" time="3.719" tests="1" errors="1" skipped="0" failures="0">
+  <properties>
+    <property name="java.specification.version" value="17"/>
+    <property name="sun.jnu.encoding" value="UTF-8"/>
+    <property name="java.class.path" value="/home/baba_sunilo/Developer/D3/d3-java-client/target/test-classes:/home/baba_sunilo/Developer/D3/d3-java-client/target/classes:/home/baba_sunilo/.m2/repository/com/squareup/okhttp3/okhttp/4.12.0/okhttp-4.12.0.jar:/home/baba_sunilo/.m2/repository/com/squareup/okio/okio/3.6.0/okio-3.6.0.jar:/home/baba_sunilo/.m2/repository/com/squareup/okio/okio-jvm/3.6.0/okio-jvm-3.6.0.jar:/home/baba_sunilo/.m2/repository/org/jetbrains/kotlin/kotlin-stdlib-common/1.9.10/kotlin-stdlib-common-1.9.10.jar:/home/baba_sunilo/.m2/repository/org/jetbrains/kotlin/kotlin-stdlib-jdk8/1.8.21/kotlin-stdlib-jdk8-1.8.21.jar:/home/baba_sunilo/.m2/repository/org/jetbrains/kotlin/kotlin-stdlib/1.8.21/kotlin-stdlib-1.8.21.jar:/home/baba_sunilo/.m2/repository/org/jetbrains/annotations/13.0/annotations-13.0.jar:/home/baba_sunilo/.m2/repository/org/jetbrains/kotlin/kotlin-stdlib-jdk7/1.8.21/kotlin-stdlib-jdk7-1.8.21.jar:/home/baba_sunilo/.m2/repository/com/google/code/gson/gson/2.10.1/gson-2.10.1.jar:/home/baba_sunilo/.m2/repository/junit/junit/4.13.2/junit-4.13.2.jar:/home/baba_sunilo/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:/home/baba_sunilo/.m2/repository/com/squareup/okhttp3/mockwebserver/4.12.0/mockwebserver-4.12.0.jar:"/>
+    <property name="java.vm.vendor" value="Ubuntu"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="java.vendor.url" value="https://ubuntu.com/"/>
+    <property name="os.name" value="Linux"/>
+    <property name="java.vm.specification.version" value="17"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="user.country" value="IN"/>
+    <property name="sun.boot.library.path" value="/usr/lib/jvm/java-17-openjdk-amd64/lib"/>
+    <property name="sun.java.command" value="/home/baba_sunilo/Developer/D3/d3-java-client/target/surefire/surefirebooter-20260109182305831_3.jar /home/baba_sunilo/Developer/D3/d3-java-client/target/surefire 2026-01-09T18-23-05_751-jvmRun1 surefire-20260109182305831_1tmp surefire_0-20260109182305831_2tmp"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="test" value="D3ClientLiveTest"/>
+    <property name="surefire.test.class.path" value="/home/baba_sunilo/Developer/D3/d3-java-client/target/test-classes:/home/baba_sunilo/Developer/D3/d3-java-client/target/classes:/home/baba_sunilo/.m2/repository/com/squareup/okhttp3/okhttp/4.12.0/okhttp-4.12.0.jar:/home/baba_sunilo/.m2/repository/com/squareup/okio/okio/3.6.0/okio-3.6.0.jar:/home/baba_sunilo/.m2/repository/com/squareup/okio/okio-jvm/3.6.0/okio-jvm-3.6.0.jar:/home/baba_sunilo/.m2/repository/org/jetbrains/kotlin/kotlin-stdlib-common/1.9.10/kotlin-stdlib-common-1.9.10.jar:/home/baba_sunilo/.m2/repository/org/jetbrains/kotlin/kotlin-stdlib-jdk8/1.8.21/kotlin-stdlib-jdk8-1.8.21.jar:/home/baba_sunilo/.m2/repository/org/jetbrains/kotlin/kotlin-stdlib/1.8.21/kotlin-stdlib-1.8.21.jar:/home/baba_sunilo/.m2/repository/org/jetbrains/annotations/13.0/annotations-13.0.jar:/home/baba_sunilo/.m2/repository/org/jetbrains/kotlin/kotlin-stdlib-jdk7/1.8.21/kotlin-stdlib-jdk7-1.8.21.jar:/home/baba_sunilo/.m2/repository/com/google/code/gson/gson/2.10.1/gson-2.10.1.jar:/home/baba_sunilo/.m2/repository/junit/junit/4.13.2/junit-4.13.2.jar:/home/baba_sunilo/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:/home/baba_sunilo/.m2/repository/com/squareup/okhttp3/mockwebserver/4.12.0/mockwebserver-4.12.0.jar:"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="/home/baba_sunilo"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.version.date" value="2025-01-21"/>
+    <property name="java.home" value="/usr/lib/jvm/java-17-openjdk-amd64"/>
+    <property name="file.separator" value="/"/>
+    <property name="basedir" value="/home/baba_sunilo/Developer/D3/d3-java-client"/>
+    <property name="java.vm.compressedOopsMode" value="Zero based"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="surefire.real.class.path" value="/home/baba_sunilo/Developer/D3/d3-java-client/target/surefire/surefirebooter-20260109182305831_3.jar"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="17.0.14+7-Ubuntu-122.04.1"/>
+    <property name="user.name" value="baba_sunilo"/>
+    <property name="path.separator" value=":"/>
+    <property name="os.version" value="5.15.0-126-generic"/>
+    <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="java.vm.name" value="OpenJDK 64-Bit Server VM"/>
+    <property name="localRepository" value="/home/baba_sunilo/.m2/repository"/>
+    <property name="java.vendor.url.bug" value="https://bugs.launchpad.net/ubuntu/+source/openjdk-17"/>
+    <property name="java.io.tmpdir" value="/tmp"/>
+    <property name="java.version" value="17.0.14"/>
+    <property name="user.dir" value="/home/baba_sunilo/Developer/D3/d3-java-client"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="native.encoding" value="UTF-8"/>
+    <property name="java.library.path" value="/tmp/.mount_CursorJSm1qw/usr/lib/:/tmp/.mount_CursorJSm1qw/usr/lib32/:/tmp/.mount_CursorJSm1qw/usr/lib64/:/tmp/.mount_CursorJSm1qw/lib/:/tmp/.mount_CursorJSm1qw/lib/i386-linux-gnu/:/tmp/.mount_CursorJSm1qw/lib/x86_64-linux-gnu/:/tmp/.mount_CursorJSm1qw/lib/aarch64-linux-gnu/:/tmp/.mount_CursorJSm1qw/lib32/:/tmp/.mount_CursorJSm1qw/lib64/::/usr/java/packages/lib:/usr/lib/x86_64-linux-gnu/jni:/lib/x86_64-linux-gnu:/usr/lib/x86_64-linux-gnu:/usr/lib/jni:/lib:/usr/lib"/>
+    <property name="java.vm.info" value="mixed mode, sharing"/>
+    <property name="java.vendor" value="Ubuntu"/>
+    <property name="java.vm.version" value="17.0.14+7-Ubuntu-122.04.1"/>
+    <property name="java.specification.maintenance.version" value="1"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="java.class.version" value="61.0"/>
+  </properties>
+  <testcase name="testUploadConvertPollDownload" classname="com.d3.client.D3ClientLiveTest" time="3.677">
+    <error message="API request failed" type="com.d3.client.exceptions.D3APIError"><![CDATA[com.d3.client.exceptions.D3APIError: API request failed
+	at com.d3.client.D3Client.makeRequest(D3Client.java:488)
+	at com.d3.client.D3Client.getStatus(D3Client.java:365)
+	at com.d3.client.D3Client.pollStatus(D3Client.java:440)
+	at com.d3.client.D3ClientLiveTest.testUploadConvertPollDownload(D3ClientLiveTest.java:105)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:569)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:59)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:56)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+	at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:26)
+	at org.junit.internal.runners.statements.RunAfters.evaluate(RunAfters.java:27)
+	at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)
+	at org.junit.runners.BlockJUnit4ClassRunner$1.evaluate(BlockJUnit4ClassRunner.java:100)
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:366)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:103)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:63)
+	at org.junit.runners.ParentRunner$4.run(ParentRunner.java:331)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:79)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:329)
+	at org.junit.runners.ParentRunner.access$100(ParentRunner.java:66)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:293)
+	at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:26)
+	at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:413)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.execute(JUnit4Provider.java:316)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.executeWithRerun(JUnit4Provider.java:240)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.executeTestSet(JUnit4Provider.java:214)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.invoke(JUnit4Provider.java:155)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385)
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
+	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
+]]></error>
+    <system-out><![CDATA[[live-test] Uploading file...
+[live-test] Upload result: file_key=in_381NbNSb05K6zfL4ZY3WYj6ZThj, upload_id=ZWYzODFlYTMtMTBlNy00Njk4LTgzYjYtZWEzYzEwM2ZmYTI4LmM1ZTA2OWVmLTgxNmYtNDg4ZC04MmViLTM2YmMxYTdmNjZiZXgxNzY3OTYzMTg3ODk4Mjc4OTIx
+[live-test] Starting convert...
+[live-test] Operation: main_task_id=main_381NbcmLSPGFHrGDn7MBZKdYRmw
+[live-test] Polling status...
+]]></system-out>
+  </testcase>
+</testsuite>
