@@ -15,12 +15,12 @@ import java.util.*;
 import java.util.concurrent.TimeUnit;
 
 /**
- * D3 Business API Client
+ * Dragdropdo Business API Client
  *
- * A Java client library for interacting with the D3 Business API.
+ * A Java client library for interacting with the Dragdropdo Business API.
  * Provides methods for file uploads, operations, and status checking.
  */
-public class D3Client {
+public class Dragdropdo {
     private final String apiKey;
     private final String baseUrl;
     private final long timeout;
@@ -29,12 +29,12 @@ public class D3Client {
     private final Gson gson;
 
     /**
-     * Create a new D3 Client instance
+     * Create a new Dragdropdo Client instance
      *
      * @param config Client configuration
      * @throws D3ValidationError if API key is missing
      */
-    public D3Client(D3ClientConfig config) throws D3ValidationError {
+    public Dragdropdo(D3ClientConfig config) throws D3ValidationError {
         if (config.getApiKey() == null || config.getApiKey().isEmpty()) {
             throw new D3ValidationError("API key is required");
         }

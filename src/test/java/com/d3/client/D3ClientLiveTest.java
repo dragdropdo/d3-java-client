@@ -28,7 +28,7 @@ public class D3ClientLiveTest {
     private static final String API_BASE = "https://api-dev.dragdropdo.com";
     private static String apiKey;
     private static boolean runLive;
-    private D3Client client;
+    private Dragdropdo client;
     private File tmpFile;
 
     @BeforeClass
@@ -56,7 +56,7 @@ public class D3ClientLiveTest {
         config.setBaseUrl(apiBase);
         config.setTimeout(120000L); // 120 seconds
 
-        client = new D3Client(config);
+        client = new Dragdropdo(config);
 
         // Create temporary test file
         tmpFile = File.createTempFile("d3-live-", ".txt");

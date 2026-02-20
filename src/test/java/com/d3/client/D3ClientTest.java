@@ -26,7 +26,7 @@ import static org.junit.Assert.*;
 public class D3ClientTest {
     private MockWebServer mockWebServer;
     private MockWebServer partUploadServer;
-    private D3Client client;
+    private Dragdropdo client;
     private static final String API_BASE = "https://api-dev.dragdropdo.com";
 
     @Before
@@ -44,7 +44,7 @@ public class D3ClientTest {
         config.setBaseUrl(baseUrl);
         config.setTimeout(120000); // 120 seconds - enough for mock server and polling
 
-        client = new D3Client(config);
+        client = new Dragdropdo(config);
     }
 
     @After
@@ -213,7 +213,7 @@ public class D3ClientTest {
         // Test missing API key
         try {
             D3ClientConfig config = new D3ClientConfig("");
-            new D3Client(config);
+            new Dragdropdo(config);
             fail("Expected D3ValidationError for missing API key");
         } catch (D3ValidationError e) {
             assertTrue(e.getMessage().contains("API key is required"));
@@ -223,7 +223,7 @@ public class D3ClientTest {
         D3ClientConfig config = new D3ClientConfig("test-key");
         config.setBaseUrl("https://api-dev.dragdropdo.com");
         try {
-            D3Client validClient = new D3Client(config);
+            Dragdropdo validClient = new Dragdropdo(config);
             assertNotNull(validClient);
         } catch (D3ValidationError e) {
             fail("Should not throw error for valid config");

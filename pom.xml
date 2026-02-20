@@ -5,13 +5,13 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>com.d3</groupId>
-    <artifactId>d3-java-client</artifactId>
+    <artifactId>dragdropdo-sdk</artifactId>
     <version>1.0.0</version>
     <packaging>jar</packaging>
 
-    <name>D3 Java Client</name>
+    <name>DragDropDo Java SDK</name>
     <description>Official Java client library for the D3 Business API</description>
-    <url>https://github.com/d3/d3-java-client</url>
+    <url>https://github.com/d3/dragdropdo-sdk-java</url>
 
     <licenses>
         <license>
